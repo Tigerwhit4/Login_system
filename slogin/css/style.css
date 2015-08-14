@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* just for visual color effects */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #DBDBDB;
+}
+.wrapper {
+	background-color: #AFAFAF;
+	width: 960px;
+	margin: 0 auto;
+	height: 100vh;
+}
+.loginForm {width: 500px; margin: 0 auto;}
+.formDivs {margin: 15px 0;}
+h1 {margin: 0; text-align: center;}
+.login_error {
+	margin: 25px 0;
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFDCDD;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #5E0000;
+	padding: 15px 0;
+}
